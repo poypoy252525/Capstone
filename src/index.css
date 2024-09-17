@@ -22,7 +22,7 @@ a{
 .btn{
   background: #fff;
   color: #333;
-  padding: 14px 25px;
+  padding: 10px 20px;
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
@@ -33,6 +33,30 @@ a{
   justify-content: center;
 }
 .btn img{
-  width: 20px;
+  width: 15px;
   margin-left: 10px;
+}
+.btn.dark_btn{
+  background: #21a041;
+  color: #fff;
+}
+.login-container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------ media query ------- */
+
+@media (max-width: 1200px){
+
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .btn{
+      padding: 14px 22px;
+    }
 }
